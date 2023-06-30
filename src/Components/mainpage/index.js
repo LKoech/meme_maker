@@ -181,7 +181,7 @@ class MemeMaker extends React.Component {
       <div>
         <div className="main-content">
           <div className="sidebar">
-            <NavbarBrand href="/">Make-a-Meme</NavbarBrand>
+            <NavbarBrand href="/">Make your own Meme</NavbarBrand>
             <p>
               This is a fun 5 hour project inspired by imgur. Built with React.
             </p>
@@ -210,7 +210,8 @@ class MemeMaker extends React.Component {
           </div>
         </div>
         <Modal className="meme-gen-modal" isOpen={this.state.modalIsOpen}>
-          <ModalHeader toggle={this.toggle}>Make-a-Meme</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Make your
+           Meme</ModalHeader>
           <ModalBody>
             <svg
               width={newWidth}
@@ -257,7 +258,7 @@ class MemeMaker extends React.Component {
                 <Label for="bottomtext">Bottom Text</Label>
                 <input className="form-control" type="text" name="bottomtext" id="bottomtext" placeholder="Add text to the bottom" onChange={this.changeText} />
               </FormGroup>
-              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download Meme!</button>
+              <button onClick={() => this.convertSvgToImage()} className="btn btn-primary">Download</button>
             </div>
           </ModalBody>
         </Modal>

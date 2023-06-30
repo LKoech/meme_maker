@@ -39,7 +39,7 @@ html, body {
 }
 
 .navbar-brand:focus, .navbar-brand:hover, .navbar-brand:active {
-  color: #FFF;
+  color: #8d8585;
 }
 
 .meme-gen-modal {
@@ -91,7 +91,7 @@ html, body {
 
 .sidebar {
   min-width: 300px;
-  background: #333333;
+  background: #688bc6;
   min-height: 100vh;
   margin-right: 7.5px;
   padding: 20px;
@@ -116,7 +116,7 @@ html, body {
 
 .meme-bottom-caption {
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   width: 100%;
   font-family: Impact;
@@ -126,12 +126,12 @@ html, body {
   padding: 5px;
   color: #fff;
   letter-spacing: 1px;
-  background: linear-gradient(to left, rgb(51, 51, 51), rgba(51, 51, 51, 0.81));
+  background: linear-gradient(to left, rgba(153, 235, 239, 0.508), rgba(51, 51, 51, 0.81));
 }
 
 .meme-top-caption {
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   width: 100%;
   font-family: Impact;
@@ -141,5 +141,5 @@ html, body {
   padding: 5px;
   color: #fff;
   letter-spacing: 1px;
-  background: linear-gradient(to left, rgb(51, 51, 51), rgba(51, 51, 51, 0.81));
+  background: linear-gradient(to left, rgb(153, 235, 239, 0.508), rgba(51, 51, 51, 0.81));
 }
